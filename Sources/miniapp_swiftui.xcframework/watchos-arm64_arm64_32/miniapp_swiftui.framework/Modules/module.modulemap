@@ -1,0 +1,6 @@
+framework module miniapp_swiftui {
+  umbrella header "miniapp_swiftui.h"
+  export *
+
+  module * { export * }
+}
