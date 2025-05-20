@@ -1,0 +1,374 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "miniapp_swiftui",
+    "printedName": "miniapp_swiftui",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "miniapp_swiftui",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "miniapp_core",
+        "printedName": "miniapp_core",
+        "declKind": "Import",
+        "moduleName": "miniapp_swiftui"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiniAppContainer",
+        "printedName": "MiniAppContainer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootView:miniApps:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MiniAppContainer",
+                "printedName": "miniapp_swiftui.MiniAppContainer",
+                "usr": "s:15miniapp_swiftui16MiniAppContainerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "any SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any miniapp_swiftui.MiniApp]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiniApp",
+                    "printedName": "any miniapp_swiftui.MiniApp",
+                    "usr": "s:15miniapp_swiftui7MiniAppP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15miniapp_swiftui16MiniAppContainerV8rootView8miniAppsAC7SwiftUI0G0_p_SayAA0cD0_pGtcfc",
+            "mangledName": "$s15miniapp_swiftui16MiniAppContainerV8rootView8miniAppsAC7SwiftUI0G0_p_SayAA0cD0_pGtcfc",
+            "moduleName": "miniapp_swiftui",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15miniapp_swiftui16MiniAppContainerV4bodyQrvp",
+            "mangledName": "$s15miniapp_swiftui16MiniAppContainerV4bodyQrvp",
+            "moduleName": "miniapp_swiftui",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15miniapp_swiftui16MiniAppContainerV4bodyQrvg",
+                "mangledName": "$s15miniapp_swiftui16MiniAppContainerV4bodyQrvg",
+                "moduleName": "miniapp_swiftui",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15miniapp_swiftui16MiniAppContainerV",
+        "mangledName": "$s15miniapp_swiftui16MiniAppContainerV",
+        "moduleName": "miniapp_swiftui",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "miniapp_swiftui",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "miniapp_swiftui"
+      },
+      {
+        "kind": "Import",
+        "name": "miniapp_core",
+        "printedName": "miniapp_core",
+        "declKind": "Import",
+        "moduleName": "miniapp_swiftui"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "miniapp_swiftui",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "miniapp_swiftui"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiniApp",
+        "printedName": "MiniApp",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15miniapp_swiftui7MiniAppP4nameSSvp",
+            "mangledName": "$s15miniapp_swiftui7MiniAppP4nameSSvp",
+            "moduleName": "miniapp_swiftui",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15miniapp_swiftui7MiniAppP4nameSSvg",
+                "mangledName": "$s15miniapp_swiftui7MiniAppP4nameSSvg",
+                "moduleName": "miniapp_swiftui",
+                "genericSig": "<τ_0_0 where τ_0_0 : miniapp_swiftui.MiniApp>",
+                "sugared_genericSig": "<Self where Self : miniapp_swiftui.MiniApp>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "view",
+            "printedName": "view",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "any SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15miniapp_swiftui7MiniAppP4view7SwiftUI4View_pvp",
+            "mangledName": "$s15miniapp_swiftui7MiniAppP4view7SwiftUI4View_pvp",
+            "moduleName": "miniapp_swiftui",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "any SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15miniapp_swiftui7MiniAppP4view7SwiftUI4View_pvg",
+                "mangledName": "$s15miniapp_swiftui7MiniAppP4view7SwiftUI4View_pvg",
+                "moduleName": "miniapp_swiftui",
+                "genericSig": "<τ_0_0 where τ_0_0 : miniapp_swiftui.MiniApp>",
+                "sugared_genericSig": "<Self where Self : miniapp_swiftui.MiniApp>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15miniapp_swiftui7MiniAppP",
+        "mangledName": "$s15miniapp_swiftui7MiniAppP",
+        "moduleName": "miniapp_swiftui",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/stanydsouza\/Work\/Bluebik\/core-swift\/miniapp-swiftui\/miniapp-swiftui\/source\/MiniAppContainer.swift",
+      "kind": "StringLiteral",
+      "offset": 1684,
+      "length": 7,
+      "value": "\"Hello\""
+    },
+    {
+      "filePath": "\/Users\/stanydsouza\/Work\/Bluebik\/core-swift\/miniapp-swiftui\/miniapp-swiftui\/source\/MiniAppContainer.swift",
+      "kind": "Array",
+      "offset": 1704,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

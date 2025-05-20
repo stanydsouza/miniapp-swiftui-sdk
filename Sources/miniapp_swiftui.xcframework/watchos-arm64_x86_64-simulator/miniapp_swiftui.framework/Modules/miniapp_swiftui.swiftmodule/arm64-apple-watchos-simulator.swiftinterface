@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-watchos9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name miniapp_swiftui
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import miniapp_core
+@_exported import miniapp_swiftui
+@_Concurrency.MainActor @preconcurrency public struct MiniAppContainer : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(rootView: any SwiftUICore.View, miniApps: [any miniapp_swiftui.MiniApp])
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s15miniapp_swiftui16MiniAppContainerV4bodyQrvp", 0) __
+}
+
+public protocol MiniApp {
+  var name: Swift.String { get }
+  var view: any SwiftUICore.View { get }
+}
+extension miniapp_swiftui.MiniAppContainer : Swift.Sendable {}
